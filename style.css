@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.top {
+  padding: 10px;
+  background: white;
+}
+
+svg {
+  width: 100vw;
+  height: 90vh;
+  background: white;
+  border-top: 1px solid #ccc;
+}
