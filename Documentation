@@ -1,0 +1,43 @@
+# Project Documentation
+
+## Project Title
+Admin Dashboard with CSS Grid & Theme Switching
+
+---
+
+## Objective
+
+To design and implement a responsive admin dashboard using CSS Grid layout, dynamic theme switching, and persistent theme management using localStorage.
+
+---
+
+## Functional Requirements
+
+- Grid-based structured layout
+- Sidebar, header, and content sections
+- Dark/light mode toggle button
+- Theme persistence after reload
+- Responsive behavior across devices
+
+---
+
+## Technical Implementation
+
+### Layout Design
+- Implemented using CSS Grid
+- Defined grid-template-areas for layout structure
+- Responsive breakpoints for mobile compatibility
+
+### Theme Management
+- CSS variables used for color schemes
+- Dark and light themes defined using :root variables
+- JavaScript toggles theme class on document body
+
+### Persistence Mechanism
+- Theme preference stored using localStorage
+- On page load, saved theme is retrieved and applied
+
+Example:
+```javascript
+localStorage.setItem("theme", "dark");
+const savedTheme = localStorage.getItem("theme");
